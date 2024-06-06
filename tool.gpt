@@ -2,9 +2,12 @@ Name: summarize-tweets
 Description: Summarize tweets
 Tools: sys.write, summarize-tweet
 
-Write all the summaries for the tweets at the following URLs to tweets.md:
+Always summarize tweets synchronously in the order they appear.
+Never summarize tweets in parallel.
+Write all the summaries for the tweets at the following URLs to `tweets.md`:
 - https://x.com/acornlabs/status/1798063732394000559
 - https://x.com/acornlabs/status/1797998244447900084
+
 
 ---
 Name: summarize-tweet
